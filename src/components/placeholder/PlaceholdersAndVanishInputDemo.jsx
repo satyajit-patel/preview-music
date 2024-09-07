@@ -20,7 +20,7 @@ export function PlaceholdersAndVanishInputDemo() {
       const response = await axios.get(`${import.meta.env.VITE_API}${keywords}&type=track`);
       setTracks(response.data.tracks.items);
     } catch (err) {
-      alert("Sorry, failed to get music data");
+      alert("Sorry, Please trye Again");
     }
   };
 
